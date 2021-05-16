@@ -27,7 +27,10 @@ h1 {
 }
 
 .tag {
-  /* position: relative; */
+  position: absolute;
+  top: 0;
+  right: 0;
+
   float: right;
   background-color: #9dfc9d;
   border: 1px solid black;
@@ -50,7 +53,6 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     width: 46%;
-    
   }
   .col-md-12 {
     width: 95%;
