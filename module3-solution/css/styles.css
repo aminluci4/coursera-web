@@ -1,0 +1,73 @@
+#header-container {
+  background-color: rgb(170, 169, 169);
+}
+#header-container > div.navbar-header > a {
+  color: black;
+}
+
+#navbar-collapse-1 > ul {
+  border-bottom: 1px solid black;
+  background-color: rgb(240, 240, 240);
+}
+#navbar-collapse-1 > ul li {
+  text-align: center;
+  border-top: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(223, 222, 222);
+}
+
+#navbar-collapse-1 > ul li:hover {
+  background-color: rgb(243, 241, 241);
+}
+
+#really-tall-section {
+  height: 1000px;
+  margin-top: -20px;
+  background-color: rgb(240, 240, 240);
+}
+
+#page-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.tile-content {
+  width: 100%;
+  padding: 10px 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  background-color: rgb(155, 155, 155);
+}
+.content-tile {
+  text-align: justify;
+}
+.section-title {
+  text-align: center;
+  font-weight: bold;
+}
+#main-page-content > div > div > div.section-title > h3 {
+  margin-top: 0px;
+}
+/********** Desktop (md) **********/
+@media (min-width: 768px) {
+  #really-tall-section {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+/********** Tablet (sm) **********/
+@media (min-width: 576px) and (max-width: 767px) {
+  #really-tall-section {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+/********** Tablet (xs) **********/
+@media (max-width: 575px) {
+  #really-tall-section {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
