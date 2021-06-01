@@ -114,13 +114,13 @@ $(function () {
         //
         var homeHtmlToInsertIntoMainPage = insertProperty(
           homeHtml,
-          '{{randomCategoryShortName}}',
-          chosenCategoryShortName
+          'randomCategoryShortName',
+          "'" + chosenCategoryShortName + "'"
         );
-        // homeHtmlToInsertIntoMainPage = "'" + homeHtmlToInsertIntoMainPage + "'";
-        //
-        //
 
+        //
+        //
+        console.log(homeHtmlToInsertIntoMainPage);
         // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
         // Use the existing insertHtml function for that purpose. Look through this code for an example
         // of how to do that.
